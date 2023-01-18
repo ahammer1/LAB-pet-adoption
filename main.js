@@ -239,4 +239,8 @@ const pets = [
       type: "dino",
       imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
     }
+
+    
   ];
+const id =document.petadoption(pets)
+id.innerHTML = "pets"
