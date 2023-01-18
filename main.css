@@ -1,3 +1,8 @@
 body{
   background-color: chartreuse;
 }
+
+.pets {
+  display: flex;
+  flex-wrap: wrap;
+}

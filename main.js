@@ -253,7 +253,9 @@ domString +=
     <img src="${pet.imageUrl}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${pet.name}</h5>
-      <p class="card-text">${pet.specialSkill}</p>
+      <h6 class="card-text1">${pet.type}</h6>
+      <p class="card-text2">${pet.specialSkill}</p>
+      <p class="card-text3">${pet.color}</p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
