@@ -13,7 +13,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
       type: "dino",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+      imageUrl: "https://th.bing.com/th/id/R.733595adcc37377bb9667b50da8102b4?rik=2Y14OufMo1HWMA&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2fplanetdinosaur%2fimages%2f7%2f78%2fAlectrosaurus.jpeg%2frevision%2flatest%3fcb%3d20130514061357&ehk=G4xN8BhCUlXZ8Xgv3M%2fQdk7Vvw5QiU7Ys5Ga9XW3f2Q%3d&risl=&pid=ImgRaw&r=0",
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ const pets = [
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
       type: "dino",
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg"
+      imageUrl: "https://th.bing.com/th/id/OIP.dPNBG-RZl51LskunXPHO-QHaEo?pid=ImgDet&rs=1"
     },
     {
       id: 9,
@@ -85,7 +85,7 @@ const pets = [
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
       type: "dino",
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600"
+      imageUrl: "https://yt3.ggpht.com/a/AATXAJzZy-TXCQ9lK4PPsxe7t9mjCRxjEd0xiyLyMA=s900-c-k-c0xffffffff-no-rj-mo"
     },
     {
       id: 12,
@@ -101,7 +101,7 @@ const pets = [
       color: "Red",
       specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
       type: "dog",
-      imageUrl: "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg"
+      imageUrl: "https://th.bing.com/th/id/R.424861dbcf2cccc0f9ed2fb12197b4cb?rik=sVYa19PYF%2feOyg&pid=ImgRaw&r=0"
     },
     {
       id: 14,
@@ -122,10 +122,10 @@ const pets = [
     {
       id: 16,
       name: "Smokey",
-      color: "Brown",
+      color: "Green",
       specialSkill: "Drives at a safe rate of speed in snow or rain.",
       type: "dino",
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg"
+      imageUrl: "https://vignette.wikia.nocookie.net/dinocolosseum/images/b/bd/Giganotosaurus.jpg/revision/latest?cb=20181011110841"
     },
     {
      id: 17,
@@ -133,7 +133,7 @@ const pets = [
       color: "Yellow",
       specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg"
+      imageUrl: "https://cdn.pixabay.com/photo/2017/05/15/09/59/cat-2314325_960_720.jpg"
     },
     {
       id: 18,
@@ -141,7 +141,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Proficient in air guitar",
       type: "dino",
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg"
+      imageUrl: "https://yt3.ggpht.com/a/AATXAJxAt45Wh_iGPd4xP9cVLuophFO-Z8ko-9fckA=s900-c-k-c0xffffffff-no-rj-mo"
     },
     {
       id: 19,
@@ -149,7 +149,7 @@ const pets = [
       color: "Blue",
       specialSkill: "Listens attentively to boring stories.",
       type: "dog",
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
+      imageUrl: "https://th.bing.com/th/id/OIP.yv1mDvJDT16jF2XxM3LE7gHaFj?pid=ImgDet&rs=1"
     },
     {
       id: 20,
@@ -157,7 +157,7 @@ const pets = [
       color: "Black",
       specialSkill: "Uses litter box at appropriate hours.",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
+      imageUrl: "https://th.bing.com/th/id/OIP.rHYDwobnkLP7uf8cT47o1QHaE8?pid=ImgDet&rs=1"
     },
     {
       id: 21,
@@ -165,7 +165,7 @@ const pets = [
       color: "Red",
       specialSkill: "Owns a Nintendo Power Glove.",
       type: "dino",
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
+      imageUrl: "https://wallpapercave.com/wp/wp7630371.jpg"
     },
     {
         id: 22,
@@ -173,7 +173,7 @@ const pets = [
       color: "Orange",
       specialSkill: "Is comfortable with jokes about his receding hairline.",
       type: "cat",
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
+      imageUrl: "https://th.bing.com/th/id/R.55023ef720a6ed1a13244850358f8988?rik=%2bZjLlagAOS%2fd1A&riu=http%3a%2f%2fblogs.columbian.com%2fcat-tales%2fwp-content%2fuploads%2fsites%2f43%2f2017%2f12%2fOrangeCat1.jpg&ehk=Yliv%2b5sMPDDX%2b2lzugsicMw1Dn2IkUNkJgM4tKarS3k%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         id: 23,
@@ -189,7 +189,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
       type: "dog",
-      imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
+      imageUrl: "https://th.bing.com/th/id/OIP.FcJ-P4b65Z3KTC9bYCdYpwHaEo?pid=ImgDet&rs=1"
     },
     {
       id: 25,
@@ -205,7 +205,7 @@ const pets = [
       color: "Yellow",
       specialSkill: "Cleans himself.",
       type: "dog",
-      imageUrl: "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg"
+      imageUrl: "https://https://th.bing.com/th/id/OIP.gfIZLLCmLVKVmkuJ27BzCwHaE8?pid=ImgDet&rs=1.thetrendywhippet.co.uk/whttps://pixnio.com/free-images/2017/09/26/2017-09-26-09-43-40.jpgp-content/uploads/2016/11/IMG_1651-600x400.jpg"
     },
     {
         id: 27,
@@ -237,7 +237,7 @@ const pets = [
       color: "Red",
       specialSkill: "Doesn’t get weirded out by the word “moist.”",
       type: "dino",
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
+      imageUrl: "https://webstockreview.net/images/clipart-dinosaur-raptor-dinosaur-4.gif"
     }
 
 
