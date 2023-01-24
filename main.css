@@ -7,5 +7,18 @@ body{
  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
 
+
+
+#Cat {
+  background-color: lightblue;
+}
+
+#Dog {
+  background-color: lightgreen;
+}
+
+#Dino {
+  background-color: lightsalmon;
 }
