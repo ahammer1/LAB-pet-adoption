@@ -264,6 +264,7 @@ domString +=
       <p class="card-text2">${pet.specialSkill}</p>
       <p class="card-text3">${pet.color}</p>
       <a href="#" class="btn btn-primary">Click Here to Adopt </a>
+      <button class="btn btn-danger" id="delete--${pet.id}">Delete
     </div>
   </div>
   `
@@ -279,7 +280,7 @@ const filter = (array, petType) => {
 
   for (const pet of pets) {
     if (pet.type === petType) {
-      petArray.push(pet);
+      petArray.push(pets);
     }
   }
   return petArray;
@@ -305,3 +306,37 @@ showDogsButton.addEventListener("click", () => {
   showAllButton.addEventListener("click", () => {;
   cardsOnDom(pets);
 });
+
+// below should create and delete
+
+const addpet = (event) => {
+  event.preventDefault();
+  // grabs values from form
+const name =document.querySelector(name);
+const type =document.querySelector(type);
+const specialSkill =document.querySelector(specialSkill);
+const color =document.querySelector(color);
+const imageUrl =document.querySelector(imageUrl);
+
+  //create an object from values
+const newpet ={
+  name: name.value,
+      color: color.value,
+      specialSkill: specialSkill.value,
+      type: type.value
+};
+
+  //push to pet array
+  pet.push(newpet)
+
+  //rerender with new pet 
+  cardsOnDom(pets)
+};
+
+//add eventlistner
+
+const addPet = document.querySelector("#form-submit");
+addPet.addEventListener("click", (newpet));
+cardsOnDom(pets)
+
+//
