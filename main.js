@@ -274,13 +274,13 @@ renderToDom("#app",domString);
 }
 //app.innerHTML = domStrings
 
-const filter = (array, petType) => {
+const filter = (pets, petType) => {
   const petArray = [];
 
 
   for (const pet of pets) {
     if (pet.type === petType) {
-      petArray.push(pets);
+      petArray.push(pet);
     }
   }
   return petArray;
@@ -308,6 +308,7 @@ showDogsButton.addEventListener("click", () => {
 });
 
 // below should create and delete
+const form = document.querySelector('form')
 
 const addpet = (event) => {
   event.preventDefault();
@@ -316,27 +317,29 @@ const name =document.querySelector(name);
 const type =document.querySelector(type);
 const specialSkill =document.querySelector(specialSkill);
 const color =document.querySelector(color);
-const imageUrl =document.querySelector(imageUrl);
+const image =document.querySelector(imageUrl);
 
   //create an object from values
-const newpet ={
+const addpet ={
   name: name.value,
-      color: color.value,
-      specialSkill: specialSkill.value,
-      type: type.value
+     color: color.value,
+    specialSkill: specialSkill.value,
+    type: type.value,
+    image: imageUrl.value
 };
 
   //push to pet array
-  pet.push(newpet)
+  pets.push(addpet);
 
   //rerender with new pet 
-  cardsOnDom(pets)
+  cardsOnDom(pets);
+  form.reset();
 };
 
 //add eventlistner
 
 const addPet = document.querySelector("#form-submit");
-addPet.addEventListener("click", (newpet));
+submitButton.addEventListener('click',addPet);
 cardsOnDom(pets)
 
 //
