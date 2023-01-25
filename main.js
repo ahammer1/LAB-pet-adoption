@@ -310,26 +310,26 @@ showDogsButton.addEventListener("click", () => {
 // below should create and delete
 const form = document.querySelector('form')
 
-const addpet = (event) => {
+const addPet = (event) => {
   event.preventDefault();
   // grabs values from form
-const name =document.querySelector(name);
-const type =document.querySelector(type);
-const specialSkill =document.querySelector(specialSkill);
-const color =document.querySelector(color);
-const image =document.querySelector(imageUrl);
+const name =document.querySelector("#name");
+const type =document.querySelector("#type");
+const specialSkill =document.querySelector("#specialSkill");
+const color =document.querySelector("#Color");
+const image =document.querySelector("#image");
 
   //create an object from values
-const addpet ={
+const addPetObj ={
   name: name.value,
      color: color.value,
     specialSkill: specialSkill.value,
     type: type.value,
-    image: imageUrl.value
+    imageUrl: image.value
 };
 
   //push to pet array
-  pets.push(addpet);
+  pets.push(addPetObj);
 
   //rerender with new pet 
   cardsOnDom(pets);
@@ -338,8 +338,6 @@ const addpet ={
 
 //add eventlistner
 
-const addPet = document.querySelector("#form-submit");
+const submitButton = document.querySelector("#form-submit");
 submitButton.addEventListener('click',addPet);
 cardsOnDom(pets)
-
-//
