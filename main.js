@@ -341,3 +341,33 @@ const addPetObj ={
 const submitButton = document.querySelector("#form-submit");
 submitButton.addEventListener('click',addPet);
 cardsOnDom(pets)
+
+//deleting?
+// Here we will be using event bubbling
+// 1. Target the app div
+const appDiv = document.querySelector("#app");
+
+
+// 2. Add an event listener to capture clicks
+
+appDiv.addEventListener('click', (event) => {
+  // 3. check e.target.id includes "delete"
+if(event.target.id.includes('delete')) {
+  // 4. add logic to remove from array
+const [throwaway, petId] = event.target.id.split("--");
+
+const indexOfPets = pets.findIndex((event) => event.id === Number(petId)
+); 
+
+pets.splice(indexOfPets, 1);
+}
+
+
+// 5. Repaint the DOM with the updated array
+cardsOnDom(pets)
+}); 
+
+const startApp = () =>{
+  cardsOnDom(pets);
+}
+startApp();
