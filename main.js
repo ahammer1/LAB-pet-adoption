@@ -257,12 +257,12 @@ let domString = "";
 for (const pet of array) {  
 domString +=
 `<div class="card" style="width: 18rem;">
+  <h5 class="card-title">${pet.name}</h5>
     <img src="${pet.imageUrl}" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">${pet.name}</h5>
-      <h6 class="card-text1">${pet.type}</h6>
-      <p class="card-text2">${pet.specialSkill}</p>
-      <p class="card-text3">${pet.color}</p>
+    <p class="card-text3">${pet.color}</p>
+    <p class="card-text2">${pet.specialSkill}</p>
+      <div class="card-text1 type--${pet.type}">${pet.type}</div>
       <a href="#" class="btn btn-primary">Click Here to Adopt </a>
       <button class="btn btn-danger" id="delete--${pet.id}">Delete
     </div>
